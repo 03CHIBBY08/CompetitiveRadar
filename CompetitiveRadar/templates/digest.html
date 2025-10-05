@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block title %}Weekly Digest - CompetitiveRadar{% endblock %}
+
+{% block content %}
+<section class="digest-page">
+    <div class="container">
+        <div class="digest-header-actions">
+            <h1>📊 Your Weekly Digest</h1>
+            <a href="/demo/run" class="btn-primary">🔄 Generate New Digest</a>
+        </div>
+
+        <div class="digest-content-full">
+            {{ digest_html | safe }}
+        </div>
+
+        <div class="digest-actions">
+            <button class="btn-secondary" onclick="window.print()">📄 Print Digest</button>
+            <a href="/api/digest" class="btn-secondary">📥 Export JSON</a>
+            <a href="/demo" class="btn-secondary">← Back to Demo</a>
+        </div>
+    </div>
+</section>
+{% endblock %}

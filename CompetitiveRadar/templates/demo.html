@@ -1,0 +1,106 @@
+{% extends "base.html" %}
+
+{% block title %}Live Demo - CompetitiveRadar{% endblock %}
+
+{% block content %}
+<section class="page-header">
+    <div class="container">
+        <h1>See CompetitiveRadar in Action</h1>
+        <p class="subtitle">Watch how our AI agents transform scattered competitor updates into a concise, actionable digest in under 30 seconds.</p>
+    </div>
+</section>
+
+<section class="demo-section">
+    <div class="container">
+        <div class="workflow-box">
+            <h2>🔍 Multi-Source Competitor Scanning</h2>
+            <div class="scanning-info">
+                <p><strong>Now scanning 50+ sources for competitive intelligence:</strong></p>
+                <div class="source-grid">
+                    <span class="source-badge">📱 Social Media (LinkedIn, Twitter/X, TikTok)</span>
+                    <span class="source-badge">🚀 Product Launch (Product Hunt, HN)</span>
+                    <span class="source-badge">📰 Press Releases (TechCrunch, VentureBeat)</span>
+                    <span class="source-badge">💼 Company Websites</span>
+                    <span class="source-badge">📊 App Stores</span>
+                    <span class="source-badge">🎯 Marketing Funnels</span>
+                    <span class="source-badge">🎙️ Podcasts & Media</span>
+                    <span class="source-badge">📧 Email Campaigns</span>
+                </div>
+            </div>
+            
+            <h3 style="margin-top: 2rem;">AI Agent Workflow</h3>
+            <div class="workflow-steps">
+                <div class="step-item {% if step >= 1 %}active{% endif %}">
+                    <span class="step-num">1</span>
+                    <span>Research Agent: Scans 50+ sources + extracts key insights</span>
+                </div>
+                <div class="step-item {% if step >= 2 %}active{% endif %}">
+                    <span class="step-num">2</span>
+                    <span>Categorization Agent: Tags Product/Pricing/Marketing + assigns competitor category</span>
+                </div>
+                <div class="step-item {% if step >= 3 %}active{% endif %}">
+                    <span class="step-num">3</span>
+                    <span>Prioritization Agent: Scores impact 1-10 + selects top 3 for founders</span>
+                </div>
+                <div class="step-item {% if step >= 4 %}active{% endif %}">
+                    <span class="step-num">4</span>
+                    <span>Summarization Agent: Creates actionable digest with strategic recommendations</span>
+                </div>
+            </div>
+            
+            {% if not digest_ready %}
+            <button onclick="window.location.href='/demo/run'" class="btn-large btn-primary run-demo-btn">
+                ▶️ Run Live Demo
+            </button>
+            {% else %}
+            <div class="success-message">
+                ✅ Analysis Complete! View your digest below.
+            </div>
+            {% endif %}
+        </div>
+
+        {% if digest_ready %}
+        <div class="digest-preview">
+            <h2>Generated Weekly Digest</h2>
+            <div class="digest-output">
+                {{ digest_html | safe }}
+            </div>
+            <div class="demo-actions">
+                <a href="/demo/run" class="btn-primary">🔄 Run Again</a>
+                <a href="/digest" class="btn-secondary">View Full Digest</a>
+            </div>
+        </div>
+
+        <div class="metrics-box">
+            <h3>Engagement Metrics (Simulated)</h3>
+            <div class="metrics-grid">
+                <div class="metric">
+                    <span class="metric-value">{{ metrics.insights_viewed }}%</span>
+                    <span class="metric-label">Insights Viewed</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-value">{{ metrics.click_through_rate }}%</span>
+                    <span class="metric-label">Click-Through Rate</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-value">{{ metrics.avg_read_time }}</span>
+                    <span class="metric-label">Avg Read Time</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-value">{{ metrics.action_taken_rate }}%</span>
+                    <span class="metric-label">Action Taken</span>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+    </div>
+</section>
+
+<section class="demo-cta">
+    <div class="container">
+        <h2>Ready to Try It on Your Competitors?</h2>
+        <p>Start your free trial and get your first digest in minutes.</p>
+        <a href="/get-started" class="btn-large btn-primary">Get Started Free</a>
+    </div>
+</section>
+{% endblock %}

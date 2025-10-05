@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "competitor": "Notion",
+    "competitor_category": "Direct Competitor",
+    "update": "Launched Notion AI with GPT-4 integration for automatic note summarization and content generation. Beta users report 3x faster documentation. Pricing: $10/month add-on.",
+    "date": "2025-10-05",
+    "source": "Product Hunt",
+    "source_type": "Product Launch Platform",
+    "impact_score": 9
+  },
+  {
+    "id": 2,
+    "competitor": "Airtable",
+    "competitor_category": "Direct Competitor",
+    "update": "Raised $185M Series F at $11B valuation. Plans to expand AI features and enterprise sales team by 200%. CEO announced aggressive market expansion.",
+    "date": "2025-10-04",
+    "source": "TechCrunch",
+    "source_type": "Press Release",
+    "impact_score": 10
+  },
+  {
+    "id": 3,
+    "competitor": "ClickUp",
+    "competitor_category": "Direct Competitor",
+    "update": "Increased enterprise tier pricing from $19 to $29/user/month (52% increase). Includes AI assistant, advanced reporting, and white-label options. Existing customers grandfathered for 3 months.",
+    "date": "2025-10-03",
+    "source": "Pricing Page",
+    "source_type": "Company Website",
+    "impact_score": 8
+  },
+  {
+    "id": 4,
+    "competitor": "Monday.com",
+    "competitor_category": "Market Leader",
+    "update": "LinkedIn campaign 'Work Without Limits' reached 5M impressions with 12% CTR. Features customer testimonials from Nike, Hulu, and Coca-Cola. Budget estimated at $2M.",
+    "date": "2025-10-04",
+    "source": "LinkedIn Ads Library",
+    "source_type": "Social Media",
+    "impact_score": 7
+  },
+  {
+    "id": 5,
+    "competitor": "Asana",
+    "competitor_category": "Market Leader",
+    "update": "Released 'Goals' feature connecting OKRs to daily tasks. Early data shows 40% increase in team alignment scores. Mobile app downloads up 150% week-over-week.",
+    "date": "2025-10-02",
+    "source": "App Store",
+    "source_type": "Mobile App Store",
+    "impact_score": 8
+  },
+  {
+    "id": 6,
+    "competitor": "Linear",
+    "competitor_category": "Emerging Threat",
+    "update": "Viral Twitter thread from former Airbnb PM: 'Switched our entire team to Linear, velocity up 3x'. 50K+ likes, 800+ companies requesting demos. Sign-ups spiked 400%.",
+    "date": "2025-10-05",
+    "source": "Twitter/X",
+    "source_type": "Social Media",
+    "impact_score": 9
+  },
+  {
+    "id": 7,
+    "competitor": "Coda",
+    "competitor_category": "Adjacent Player",
+    "update": "Partnered with Google Workspace for native Docs/Sheets integration. Allows real-time collaboration and bi-directional sync. Announced at Google Cloud Next conference.",
+    "date": "2025-10-01",
+    "source": "Google Cloud Blog",
+    "source_type": "Press Release",
+    "impact_score": 7
+  },
+  {
+    "id": 8,
+    "competitor": "Trello",
+    "competitor_category": "Market Leader",
+    "update": "TikTok campaign targeting Gen Z professionals hits 10M views. Features productivity hacks and board templates. Conversion to free trial: 18% (3x industry average).",
+    "date": "2025-10-03",
+    "source": "TikTok Analytics",
+    "source_type": "Social Media",
+    "impact_score": 6
+  },
+  {
+    "id": 9,
+    "competitor": "Height",
+    "competitor_category": "Emerging Threat",
+    "update": "Y Combinator W25 grad raised $8M seed led by Sequoia. Built autonomous project manager using AI agents. 1000+ teams on waitlist, NPS score of 85.",
+    "date": "2025-10-04",
+    "source": "Y Combinator News",
+    "source_type": "Startup News",
+    "impact_score": 8
+  },
+  {
+    "id": 10,
+    "competitor": "Basecamp",
+    "competitor_category": "Adjacent Player",
+    "update": "Switched to flat-rate pricing: $299/month unlimited users. Positioning as 'Anti-SaaS' alternative. Founder blog post went viral on Hacker News (1200+ upvotes).",
+    "date": "2025-09-30",
+    "source": "Hacker News",
+    "source_type": "Tech Community",
+    "impact_score": 7
+  },
+  {
+    "id": 11,
+    "competitor": "Smartsheet",
+    "competitor_category": "Market Leader",
+    "update": "Published enterprise ROI calculator showing $2.4M savings for 500-person teams. Being used in cold outbound sales sequences. Booking 30% more demos.",
+    "date": "2025-10-02",
+    "source": "Marketing Website",
+    "source_type": "Company Website",
+    "impact_score": 6
+  },
+  {
+    "id": 12,
+    "competitor": "Wrike",
+    "competitor_category": "Direct Competitor",
+    "update": "YouTube ad campaign 'Work Smarter' targeting project managers. 2M views, 200K channel subscribers. Featuring industry experts and customer success stories.",
+    "date": "2025-10-01",
+    "source": "YouTube",
+    "source_type": "Social Media",
+    "impact_score": 5
+  },
+  {
+    "id": 13,
+    "competitor": "Jira",
+    "competitor_category": "Market Leader",
+    "update": "Launched AI Sprint Coach that predicts sprint risks and suggests mitigation. Beta customers report 35% fewer sprint failures. Atlassian Intelligence integrated across platform.",
+    "date": "2025-10-05",
+    "source": "Atlassian Blog",
+    "source_type": "Product Update",
+    "impact_score": 9
+  },
+  {
+    "id": 14,
+    "competitor": "Teamwork",
+    "competitor_category": "Direct Competitor",
+    "update": "Free tier now limited to 3 projects (was 5). Pushing users to $12/mo paid plan. Email campaign: '80% of free users upgrade within 60 days'. Possible monetization pressure.",
+    "date": "2025-10-03",
+    "source": "Email Newsletter",
+    "source_type": "Marketing Email",
+    "impact_score": 6
+  },
+  {
+    "id": 15,
+    "competitor": "Motion",
+    "competitor_category": "Emerging Threat",
+    "update": "AI calendar + task manager combo hits $10M ARR in 18 months. Featured on Tim Ferriss podcast, 500K downloads. Unique value prop: 'Intelligent time blocking'. Average user saves 1hr/day.",
+    "date": "2025-10-04",
+    "source": "Podcast",
+    "source_type": "Influencer Media",
+    "impact_score": 8
+  },
+  {
+    "id": 16,
+    "competitor": "Notion",
+    "competitor_category": "Direct Competitor",
+    "update": "Webinar 'Build Your Second Brain' hosted 15K live attendees. Conversion rate to paid: 22%. Template marketplace revenue up 300% QoQ. Community strategy paying off.",
+    "date": "2025-10-02",
+    "source": "Webinar Platform",
+    "source_type": "Marketing Funnel",
+    "impact_score": 7
+  },
+  {
+    "id": 17,
+    "competitor": "Airtable",
+    "competitor_category": "Direct Competitor",
+    "update": "Case study: Dropbox migrated entire product roadmap to Airtable. 300+ person PM team, $500K+ annual contract. Being pitched to similar scale-ups.",
+    "date": "2025-10-01",
+    "source": "Case Study Library",
+    "source_type": "Company Website",
+    "impact_score": 8
+  },
+  {
+    "id": 18,
+    "competitor": "Asana",
+    "competitor_category": "Market Leader",
+    "update": "Instagram Reels campaign targeting remote workers: 8M reach, 500K saves. Features aesthetic workspace setups + productivity tips. Brand recall up 45% in target demo.",
+    "date": "2025-10-03",
+    "source": "Instagram",
+    "source_type": "Social Media",
+    "impact_score": 6
+  },
+  {
+    "id": 19,
+    "competitor": "ClickUp",
+    "competitor_category": "Direct Competitor",
+    "update": "Affiliate program launched: 30% recurring commission for first year. 500+ YouTubers/bloggers signed up. Projection: 20% of new customers via affiliates by Q1 2026.",
+    "date": "2025-10-04",
+    "source": "Affiliate Network",
+    "source_type": "Marketing Funnel",
+    "impact_score": 7
+  },
+  {
+    "id": 20,
+    "competitor": "Linear",
+    "competitor_category": "Emerging Threat",
+    "update": "GitHub integration update: Auto-create issues from PR comments, sync status bidirectionally. Developer NPS jumped from 72 to 89. Stealing share from Jira in eng teams.",
+    "date": "2025-10-05",
+    "source": "GitHub Marketplace",
+    "source_type": "Integration Platform",
+    "impact_score": 9
+  }
+]

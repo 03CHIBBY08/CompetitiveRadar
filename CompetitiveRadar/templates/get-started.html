@@ -1,0 +1,110 @@
+{% extends "base.html" %}
+
+{% block title %}Get Started - CompetitiveRadar{% endblock %}
+
+{% block content %}
+<section class="page-header">
+    <div class="container">
+        <h1>Start Your Free Trial</h1>
+        <p class="subtitle">Get your first competitive digest in under 5 minutes</p>
+    </div>
+</section>
+
+<section class="signup-section">
+    <div class="container">
+        <div class="signup-container">
+            <div class="signup-form-wrapper">
+                <h2>Create Your Account</h2>
+                <p class="form-subtitle">14-day free trial • No credit card required</p>
+                
+                <form class="signup-form" action="/signup" method="post">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required placeholder="John Doe">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Work Email</label>
+                        <input type="email" id="email" name="email" required placeholder="john@startup.com">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="company">Company Name</label>
+                        <input type="text" id="company" name="company" required placeholder="Your Startup">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="plan">Select Plan</label>
+                        <select id="plan" name="plan">
+                            <option value="starter">Starter - $49/mo</option>
+                            <option value="growth" selected>Growth - $149/mo (Most Popular)</option>
+                            <option value="enterprise">Enterprise - Custom</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="competitors">List Your Top Competitors (comma-separated)</label>
+                        <textarea id="competitors" name="competitors" rows="3" placeholder="Competitor A, Competitor B, Competitor C"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-primary btn-block btn-large">✨ Start Free Trial</button>
+
+                    <p class="form-note">By signing up, you agree to our Terms of Service and Privacy Policy</p>
+                </form>
+            </div>
+
+            <div class="signup-benefits">
+                <h3>What You Get</h3>
+                <ul class="benefits-list">
+                    <li>
+                        <span class="benefit-icon">✅</span>
+                        <div>
+                            <strong>Instant Setup</strong>
+                            <p>Add your competitors and get your first digest within minutes</p>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="benefit-icon">🤖</span>
+                        <div>
+                            <strong>4 AI Agents Working 24/7</strong>
+                            <p>Research, categorize, prioritize, and summarize automatically</p>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="benefit-icon">📊</span>
+                        <div>
+                            <strong>Weekly Digests</strong>
+                            <p>Get actionable insights every Monday morning in your inbox</p>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="benefit-icon">💡</span>
+                        <div>
+                            <strong>Strategic Recommendations</strong>
+                            <p>Clear "Founder Takeaways" for roadmap, pricing, and positioning</p>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="benefit-icon">🔄</span>
+                        <div>
+                            <strong>Cancel Anytime</strong>
+                            <p>No long-term contracts. Change or cancel your plan whenever you want</p>
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="trust-badges">
+                    <p class="trust-text">🔒 Bank-level security • ⚡ 99.9% uptime • 💬 24/7 support</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="demo-reminder">
+    <div class="container">
+        <p>Want to see it in action first?</p>
+        <a href="/demo" class="btn-secondary">View Live Demo</a>
+    </div>
+</section>
+{% endblock %}

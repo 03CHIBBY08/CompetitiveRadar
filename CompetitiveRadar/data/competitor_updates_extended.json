@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "competitor": "NotionAI",
+    "update": "Launched AI-powered dashboard analytics feature that automatically generates insights from workspace data. The feature uses machine learning to identify productivity patterns and suggest workflow optimizations. Early beta users report 40% increase in team efficiency.",
+    "date": "2025-10-01",
+    "source": "Product Hunt launch",
+    "category": "Product"
+  },
+  {
+    "id": 2,
+    "competitor": "ClickUp",
+    "update": "Increased enterprise pricing tier from $19/user to $25/user (31% increase). New pricing includes advanced automation features and priority support. Grandfathering existing customers for 6 months.",
+    "date": "2025-09-28",
+    "source": "Pricing page update",
+    "category": "Pricing"
+  },
+  {
+    "id": 3,
+    "competitor": "Monday.com",
+    "update": "Viral LinkedIn campaign featuring customer success stories reached 2M impressions. Campaign highlights how Fortune 500 companies use their platform for project management. Engagement rate of 8.5%, significantly above industry average.",
+    "date": "2025-09-30",
+    "source": "LinkedIn Analytics",
+    "category": "Marketing"
+  },
+  {
+    "id": 4,
+    "competitor": "Asana",
+    "update": "Released mobile app update with offline mode and enhanced collaboration features. Users can now work on tasks without internet and sync when connected. App Store rating improved from 4.2 to 4.7 stars.",
+    "date": "2025-10-02",
+    "source": "App Store release notes",
+    "category": "Product"
+  },
+  {
+    "id": 5,
+    "competitor": "Trello",
+    "update": "Introduced freemium AI assistant for task management at $5/month add-on. AI suggests task assignments, deadlines, and automation workflows. Currently limited to US market only.",
+    "date": "2025-09-29",
+    "source": "Company blog",
+    "category": "Product"
+  },
+  {
+    "id": 6,
+    "competitor": "Airtable",
+    "update": "Partnered with Salesforce for native CRM integration. Integration allows bi-directional data sync and automated workflow triggers. Partnership announced at major industry conference with significant media coverage.",
+    "date": "2025-10-03",
+    "source": "Press release",
+    "category": "Product"
+  },
+  {
+    "id": 7,
+    "competitor": "Smartsheet",
+    "update": "Published case study showing 300% ROI for construction industry clients. Study highlights cost savings through automated resource planning and real-time project tracking. Being used in sales presentations.",
+    "date": "2025-09-27",
+    "source": "Marketing website",
+    "category": "Marketing"
+  },
+  {
+    "id": 8,
+    "competitor": "Wrike",
+    "update": "Launched video marketing campaign on YouTube and TikTok targeting Gen Z professionals. Campaign features short-form content about modern work habits. Early data shows 15% conversion rate to trial signups.",
+    "date": "2025-10-01",
+    "source": "Social media analysis",
+    "category": "Marketing"
+  },
+  {
+    "id": 9,
+    "competitor": "Basecamp",
+    "update": "Announced flat-rate pricing model at $299/month for unlimited users. Major shift from per-seat pricing. Positioned as 'Netflix for project management'.",
+    "date": "2025-09-26",
+    "source": "Company announcement",
+    "category": "Pricing"
+  },
+  {
+    "id": 10,
+    "competitor": "Jira",
+    "update": "Released AI-powered sprint planning that auto-assigns tasks based on team capacity and skill sets. Beta testing shows 25% improvement in sprint completion rates.",
+    "date": "2025-10-04",
+    "source": "Product update",
+    "category": "Product"
+  }
+]

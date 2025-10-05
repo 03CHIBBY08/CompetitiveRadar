@@ -1,0 +1,106 @@
+{% extends "base.html" %}
+
+{% block title %}Pricing - CompetitiveRadar{% endblock %}
+
+{% block content %}
+<section class="page-header">
+    <div class="container">
+        <h1>Simple, Transparent Pricing</h1>
+        <p class="subtitle">Choose the plan that fits your startup stage</p>
+    </div>
+</section>
+
+<section class="pricing-section">
+    <div class="container">
+        <div class="pricing-grid">
+            <div class="pricing-card">
+                <h3>Starter</h3>
+                <div class="price">
+                    <span class="currency">$</span>
+                    <span class="amount">49</span>
+                    <span class="period">/month</span>
+                </div>
+                <p class="plan-description">Perfect for solo founders and early-stage startups</p>
+                <ul class="plan-features">
+                    <li>✓ 5 competitors tracked</li>
+                    <li>✓ Weekly digest delivery</li>
+                    <li>✓ All 4 AI agents</li>
+                    <li>✓ Email delivery</li>
+                    <li>✓ 30-day history</li>
+                </ul>
+                <a href="/get-started?plan=starter" class="btn-secondary btn-block">✨ Start Free Trial</a>
+            </div>
+
+            <div class="pricing-card featured">
+                <div class="popular-badge">Most Popular</div>
+                <h3>Growth</h3>
+                <div class="price">
+                    <span class="currency">$</span>
+                    <span class="amount">149</span>
+                    <span class="period">/month</span>
+                </div>
+                <p class="plan-description">For growing startups with competitive markets</p>
+                <ul class="plan-features">
+                    <li>✓ 15 competitors tracked</li>
+                    <li>✓ Daily + weekly digests</li>
+                    <li>✓ All 4 AI agents</li>
+                    <li>✓ Slack & Notion integration</li>
+                    <li>✓ 90-day history</li>
+                    <li>✓ Priority support</li>
+                    <li>✓ Custom categories</li>
+                </ul>
+                <a href="/get-started?plan=growth" class="btn-primary btn-block">✨ Start Free Trial</a>
+            </div>
+
+            <div class="pricing-card">
+                <h3>Enterprise</h3>
+                <div class="price">
+                    <span class="amount">Custom</span>
+                </div>
+                <p class="plan-description">For established companies with complex needs</p>
+                <ul class="plan-features">
+                    <li>✓ Unlimited competitors</li>
+                    <li>✓ Real-time alerts</li>
+                    <li>✓ All 4 AI agents + custom agents</li>
+                    <li>✓ API access</li>
+                    <li>✓ Unlimited history</li>
+                    <li>✓ Dedicated success manager</li>
+                    <li>✓ Custom integrations</li>
+                    <li>✓ SLA guarantee</li>
+                </ul>
+                <a href="/get-started?plan=enterprise" class="btn-secondary btn-block">💼 Contact Sales</a>
+            </div>
+        </div>
+
+        <div class="pricing-faq">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h4>What's included in the free trial?</h4>
+                    <p>14-day full access to the Growth plan with no credit card required. Track up to 15 competitors and get daily digests.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Can I change plans later?</h4>
+                    <p>Yes! Upgrade or downgrade anytime. Changes take effect immediately with prorated billing.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>What data sources do you monitor?</h4>
+                    <p>We track 50+ sources including websites, blogs, social media (LinkedIn, Twitter), press releases, product listings, and marketing campaigns.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>How accurate is the AI categorization?</h4>
+                    <p>Our AI achieves 95% accuracy in categorizing updates. You can provide feedback to improve accuracy over time.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="pricing-cta">
+    <div class="container">
+        <h2>Start Your Free Trial Today</h2>
+        <p>No credit card required. Cancel anytime.</p>
+        <a href="/get-started" class="btn-large btn-primary">Get Started Free</a>
+    </div>
+</section>
+{% endblock %}
