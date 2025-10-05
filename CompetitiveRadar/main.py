@@ -41,7 +41,7 @@ def main():
         from demo_data import DEMO_PROCESSED_UPDATES, DEMO_CATEGORIZED_UPDATES, DEMO_TOP_UPDATES, DEMO_DIGEST
         
         # Agent 1: Research (Demo)
-        print("🤖 AGENT 1: RESEARCH")
+        print(" AGENT 1: RESEARCH")
         print("-" * 60)
         print("🔍 Research Agent: Analyzing competitor updates...")
         processed_updates = DEMO_PROCESSED_UPDATES
@@ -49,7 +49,7 @@ def main():
         print()
         
         # Agent 2: Categorization (Demo)
-        print("🤖 AGENT 2: CATEGORIZATION")
+        print(" AGENT 2: CATEGORIZATION")
         print("-" * 60)
         print("🏷️  Categorization Agent: Classifying updates...")
         categorized_updates = DEMO_CATEGORIZED_UPDATES
@@ -57,7 +57,7 @@ def main():
         print()
         
         # Agent 3: Prioritization (Demo)
-        print("🤖 AGENT 3: PRIORITIZATION")
+        print(" AGENT 3: PRIORITIZATION")
         print("-" * 60)
         print("⚡ Prioritization Agent: Scoring updates by founder impact...")
         top_updates = DEMO_TOP_UPDATES
@@ -67,7 +67,7 @@ def main():
         print()
         
         # Agent 4: Summarization (Demo)
-        print("🤖 AGENT 4: SUMMARIZATION")
+        print(" AGENT 4: SUMMARIZATION")
         print("-" * 60)
         print("📝 Summarization Agent: Generating digest...")
         digest = DEMO_DIGEST
@@ -75,7 +75,7 @@ def main():
         print()
     else:
         # Agent 1: Research
-        print("🤖 AGENT 1: RESEARCH")
+        print(" AGENT 1: RESEARCH")
         print("-" * 60)
         processed_updates = research_agent(competitor_updates)
         print()
